@@ -1,0 +1,25 @@
+.question-wrapper {
+  padding-bottom: 36px;
+  border-bottom: 1px solid #aaaaaa;
+}
+
+.question__heading,
+.question__question {
+  margin: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 40px;
+  color: #000000;
+}
+
+.question__heading {
+  font-weight: 600;
+}
+
+.question__answers {
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+  margin-top: 47px;
+}

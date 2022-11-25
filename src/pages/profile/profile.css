@@ -1,0 +1,17 @@
+.profile {
+  flex-grow: 1;
+  padding-top: 37px;
+  padding-left: 11px;
+  padding-right: 49px;
+  background: #fcfcfc;
+  border-radius: 20px;
+}
+
+.profile__heading {
+  margin-top: 0;
+  margin-bottom: 41px;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 38px;
+  color: #000000;
+}

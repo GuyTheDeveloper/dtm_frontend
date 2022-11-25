@@ -1,0 +1,16 @@
+.custom {
+  -webkit-appearance: none;
+  appearance: none;
+  background-image: url("../../assets/img/register-arrow.svg");
+  background-size: auto;
+  background-position: right 11px center;
+  background-repeat: no-repeat;
+}
+
+.custom:invalid {
+  color: #bbbbbb;
+}
+
+option {
+  color: black;
+}

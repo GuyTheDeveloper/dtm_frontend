@@ -1,0 +1,21 @@
+.questions__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.questions__submit {
+  align-self: center;
+  min-width: 540px;
+  margin-top: 60px;
+  margin-bottom: 128px;
+  padding-block: 14px;
+  background-color: #fcfcfc;
+  border: 1px solid #aaaaaa;
+  border-radius: 20px;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+  cursor: pointer;
+}

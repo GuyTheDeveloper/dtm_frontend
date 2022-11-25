@@ -1,0 +1,17 @@
+.header {
+  margin-top: 67px;
+}
+
+.header__btn {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 38px;
+  background-color: transparent;
+  border: none;
+  color: #000000;
+  cursor: pointer;
+}

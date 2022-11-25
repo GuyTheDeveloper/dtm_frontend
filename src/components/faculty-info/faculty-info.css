@@ -1,0 +1,27 @@
+.facultyInfo {
+  display: flex;
+}
+
+.facultyInfo > span {
+  display: inline-block;
+  width: 97px;
+  margin-bottom: 20px;
+  padding: 0 22px;
+  border-left: 1px solid #e4e4e4;
+  border-right: 1px solid #e4e4e4;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.facultyInfo > span:first-child {
+  padding-left: 0;
+  border-left: none;
+  width: 165px;
+}
+
+.facultyInfo > span:last-child {
+  padding-right: 0;
+  border-right: none;
+}

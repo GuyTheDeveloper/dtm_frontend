@@ -1,0 +1,33 @@
+.register {
+  max-width: 445px;
+  margin-top: 160px;
+  padding-bottom: 99px;
+  margin-bottom: 222px;
+  margin-inline: auto;
+  padding-top: 30px;
+  padding-inline: 26px;
+  background: #ffffff;
+  box-shadow: 0px 2px 25px rgba(187, 187, 187, 0.35);
+  border-radius: 20px;
+}
+
+.register__heading {
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 52px;
+  text-align: center;
+  color: #000000;
+}
+
+.register__paragraph {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.register__link {
+  color: #000000;
+}

@@ -1,0 +1,27 @@
+.student__table-row {
+  width: 100%;
+  border-bottom: 1px solid #aeaeae;
+}
+
+.student__table-row > td {
+  margin: 10px 0;
+  padding: 28px 5px;
+  padding-left: 22px;
+  position: relative;
+  border-bottom: 1px solid #aeaeae;
+}
+
+.student__table-row > td::after {
+  content: "";
+  width: 1px;
+  height: 40px;
+  background: #aeaeae;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+}
+
+.student__table-row > td:first-child::after {
+  width: 0;
+}

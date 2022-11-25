@@ -1,0 +1,36 @@
+.progress {
+  display: flex;
+  align-items: center;
+}
+
+.progress__step {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  border: 1px solid #aeaeae;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 52px;
+  color: #000000;
+}
+
+.progress__span {
+  width: 375px;
+  height: 1px;
+  background-color: #aeaeae;
+  margin-inline: 42px;
+}
+
+.progress__step--active {
+  border-color: #18a0fb;
+  box-shadow: 0px 0px 6px #18a0fb;
+}
+
+.progress__span--active {
+  height: 2px;
+  background-color: #18a0fb;
+}

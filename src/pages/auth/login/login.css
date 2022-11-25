@@ -1,0 +1,44 @@
+.login {
+  max-width: 555px;
+  margin: 60px auto;
+}
+
+.login__heading {
+  margin: 0;
+  margin-bottom: 35px;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 52px;
+  color: #000000;
+}
+
+.login__link {
+  display: inline-block;
+  padding: 12px 20px 13px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.login__link--active {
+  background-color: rgba(204, 204, 204, 0.5);
+}
+
+.register__submit {
+  padding-block: 17px;
+  background-color: #ffffff;
+  border: 1px solid #18a0fb;
+  border-radius: 20px;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+  cursor: pointer;
+}
+
+.register__link {
+  color: #000000;
+}
